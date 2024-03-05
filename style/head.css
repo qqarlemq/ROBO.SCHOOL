@@ -1,0 +1,514 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+header {
+    background-color: rgb(20, 16, 36); 
+    color: white;
+    font-family: "Jost";
+    line-height: 160%;
+    width: 1920px;
+    height: 1080px;
+}
+.header { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.info {
+    display: flex;
+    column-gap: 40px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 160%;
+}
+.logo { 
+    font-size: 30px;
+    font-weight: 700;
+    margin-left: 100px;
+}
+.num {
+    margin-right: 100px;
+    font-family: Jost;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 160%;
+}
+.section1 {
+    margin-top: 266px;
+    margin-left: 380px;
+    font-family: "Jost";
+}
+.section1 h1 {
+    font-size: 70px;
+    font-weight: 600;
+    line-height: 160%;
+}
+.section1 p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 160%;
+}
+.section1 button {
+    background: rgb(213, 32, 39);
+    border-radius: 5px;
+    color: white;
+    border: 0px;
+    padding: 0px 54px;
+    width: 260px;
+    height: 79px;
+    font-family: Jost;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 160%;
+}
+.mainwomen {
+    position: absolute;
+    margin-left: 132px;
+    margin-top: -92.52px;
+    width: 515.52px;
+    height: 917.48px;
+}
+.round {
+    position: absolute;
+}
+.women1 {
+    position: absolute;
+    width: 783px;
+    height: 917.48px;
+    left: 924px;
+    right: 213px;
+    top: 162.52px;
+    bottom: 3604px; 
+    margin-right: 213px;
+    margin-top: 92.52px;
+    margin-bottom: 0px;
+}
+.womensec {
+    display: flex;
+    flex-direction: row;
+}
+.statistic {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1920px;
+    height: 614px;
+}
+.statistic {
+    width: 1920px;
+    height: 614px;
+}
+.definition {
+    position: absolute;
+    width: 891px;
+    height: 144px;
+    left: 380px;
+    right: 649px;
+    top: 1200px;
+    bottom: 3340px;
+    color: rgb(20, 16, 36);
+    font-family: Jost;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 160%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.n {
+    display: flex;
+    color: rgb(213, 32, 39);
+    font-family: Jost;
+    font-size: 70px;
+    font-weight: 600;
+    line-height: 160%;
+    letter-spacing: 0%;
+    text-align: left;
+    position: absolute;
+    left: 380px;
+    top: 1404px;
+    bottom: 3168px;
+    height: 58px;
+}
+.n20 {
+    margin-left: 219px;
+}
+.n100 {
+    margin-left: 209px;
+}
+.n10000 {
+    margin-left: 172px
+}
+.txt {
+    text-align: left;   
+    color: rgba(20, 16, 36, 0.7);
+    font-family: "Jost";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 160%;
+    letter-spacing: 0%;
+    display: flex;
+    left: 380px;
+    position: absolute;
+    top: 1550px;
+}
+.t2 {
+    margin-left: 30px;
+}
+.t3 {
+    margin-left: 40px;
+}
+.t4 {
+    margin-left: 30px;
+}
+.txt p {
+    width: 260px;
+    height: 58px;
+}
+.exp{
+    background: rgb(249, 249, 249);
+    position: absolute;
+    width: 1920px;
+    height: 485px;
+}
+.h2 {
+    margin-left: 380px;
+    height: 80px;
+    color: rgb(20, 16, 36);
+    font-family: Jost;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 160%;
+    text-align: left;
+}
+.bonus button{
+    margin-left: 1500px;
+    width: 251px;
+    height: 56px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 20px 15px 20px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 8px 0px rgba(20, 16, 36, 0.1);
+    background: rgb(255, 255, 255);
+    left: 1500px;
+    top: 174px;
+}
+.bonush1 {
+    margin-left: 381px;
+}
+.bonush2 {
+    margin-left: 213px;
+}
+.bonush3 {
+    margin-left: 309px;
+}
+
+.bonusname {
+    width: 187px;
+    height: 39px;
+    left: 380px;
+    top: 240px;
+    display: flex;
+    color: rgb(20, 16, 36);
+    font-family: "Jost";
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 160%;
+}
+.bonusinfo {
+    height: 87px;
+    display: flex;
+    top: 300px;
+    color: rgba(20, 16, 36, 0.7);
+    font-family: "Jost";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 160%;
+    margin-top: 19px;
+}
+.bonustxt1 {
+    margin-left: 381px;
+    width: 360px;
+}
+.bonustxt2 {
+    margin-left: 12px;
+    width: 360px;
+}
+.bonustxt3 {
+    margin-left: 27px;
+}
+.cardswraper {
+    margin-left: 380px;
+    margin-top: 600px;
+    font-family: "Jost";
+}
+.cardswraper h3 {
+    color: rgb(20, 16, 36);
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 160%;
+}
+.cards {
+    display: flex;
+    overflow-x: scroll;
+    &::-webkit-scrollbar{display: none;}
+}   
+.card {
+    display: flex;
+    flex-direction: column;
+    margin-right: 40px;
+}
+.card img {
+    border-radius: 20px;
+    background: url(),rgb(196, 196, 196);
+}
+.Irina {
+    color: rgb(20, 16, 36);
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 160%;
+    margin: 0;
+}
+.Irinainfo {
+    color: rgba(20, 16, 36, 0.7);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 160%;
+    margin: 0;
+}
+.card a {
+    color: rgb(213, 32, 39);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 160%;
+    margin-bottom: 77px;
+}
+.pockets h3{
+    color: rgb(20, 16, 36);
+    font-family: "Jost";
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 160%;
+    margin-left: 380px;
+}
+.pockets {
+    width: 1920px;
+    height: 680px;
+}
+.pocketgroup {
+    margin-left: 380px;
+    display: flex;
+    gap: 40px;
+}
+.pocket {
+    font-family: "Jost";
+    justify-content: start;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 360px;
+    height: 500px;
+    border: 1px solid rgba(20, 16, 36, 0.2);
+    border-radius: 20px;
+    background: white; 
+    color: rgb(20, 16, 36);
+}
+.pocket:hover {
+    background-color: rgb(20, 16, 36);
+    color: white;
+    width: 400px;
+    height: 550px;
+    transition: 0.5s;
+    margin-top: -25px;
+    margin-left: -15px;
+    
+}
+.pocketname {
+    margin-top: 40px;
+    height: 48px;
+    font-family: Jost;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 160%;
+}
+.pocketsell {
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 160%;
+    margin-top: 83px;
+    margin-bottom: 0;
+}
+.pocketinfo {
+
+    font-family: Jost;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 160%;
+    margin-top: 20px;
+}
+.pocket button {
+    border-radius: 5px;
+    background: rgb(213, 32, 39);
+    width: 280px;
+    height: 79px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-family: Jost;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 160%;
+    padding: 25px 54px 25px 54px;
+    border: 0;
+    margin-top: auto;
+    margin-bottom: 40px;
+}
+.registration {
+    margin-top: 120PX;
+    background: rgb(213, 32, 39);
+    width: 1920px;
+    height: 460px;
+    position: absolute;
+}
+.registration h4 {
+    margin-left: 440px;
+    margin-top:106px;
+    color: rgb(255, 255, 255);
+    font-family: "Jost";
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 130%;
+    margin-bottom: 0;
+}
+.dopinfo {
+    color: rgb(255, 255, 255);
+    font-family: Jost;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 130%;
+    margin-left: 440px;
+    margin-top: 21px;
+    margin-right: 0;
+    width: 400px;
+}
+.formname input {
+    position: absolute;
+    width: 500px;
+    height: 32px;
+    border-radius: 5px;
+    background: rgb(246, 246, 246);
+    margin-left: 980px;
+    font-family: "Jost";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 20px;
+    margin-top: -200px;
+    border: 0;
+}
+
+.formnum input{
+    position: absolute;
+    width: 500px;
+    height: 32px;
+    border-radius: 5px;
+    background: rgb(246, 246, 246);
+    margin-left: 980px;
+    font-family: "Jost";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 20px;
+    border: 0;
+    margin-top: -115px;
+}
+.formemail input {
+    position: absolute;
+    width: 500px;
+    height: 32px;
+    border-radius: 5px;
+    background: rgb(246, 246, 246);
+    margin-left: 980px;
+    font-family: "Jost";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 20px;
+    border: 0;
+    margin-top: -30px;
+}
+.registration button {
+    position: absolute;
+    width: 540px;
+    height: 64px;
+    border-radius: 5px;
+    background: rgb(20, 16, 36);
+    border: 0;
+    margin-left: 980px;
+    margin-top: 55px;
+    color: rgb(255, 255, 255);
+    font-family: "Jost";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.procent {
+    color: rgba(255, 255, 255, 0.08);
+    font-family: "Jost";
+    font-size: 100px;
+    font-weight: bold;
+    margin-top: -2px;
+    user-select: none;
+}
+
+@font-face {
+    font-family: "Jost";
+    src: url(/fonts/Jost-Regular.ttf);
+}
+footer {
+    background: rgb(20, 16, 36);
+    width: 1920px;
+    height: 159px;
+    margin-top: 580px;
+    position: absolute;
+}
+h5 {
+    width: 478px;
+    height: 48px;
+    color: rgb(255, 255, 255);
+    font-family: "Jost";
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 160%;
+    margin-left: 100px;
+    margin-top: 40px;
+    margin-bottom: 0;
+}
+.company {
+    width: 129px;
+    height: 26px;
+    color: rgba(255, 255, 255, 0.7);
+    font-family: "Jost";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 160%;
+    margin-top: 5px;
+    margin-left: 100px;
+}
+.footernumber {
+    width: 253px;
+    height: 48px;
+    color: rgb(255, 255, 255);
+    font-family: "Jost";
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 160%;
+    margin-left: 1567px;
+    margin-top: -95px;
+}
